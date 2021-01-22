@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[fgsdfgsdfgdsMyntra Application Launched Successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="MyntraTestAutomation" duration-ms="81461" started-at="2021-01-22T10:18:41 IST" finished-at="2021-01-22T10:20:02 IST">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="81461" started-at="2021-01-22T10:18:41 IST" finished-at="2021-01-22T10:20:02 IST">
+      <class name="myntraTests.MyntraTest">
+        <test-method status="PASS" signature="classLevelSetup()[pri:0, instance:myntraTests.MyntraTest@239963d8]" name="classLevelSetup" is-config="true" duration-ms="16400" started-at="2021-01-22T10:18:41 IST" finished-at="2021-01-22T10:18:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classLevelSetup -->
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:myntraTests.MyntraTest@239963d8]" name="methodLevelSetup" is-config="true" duration-ms="272" started-at="2021-01-22T10:18:57 IST" finished-at="2021-01-22T10:18:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method status="PASS" signature="myntraLaunchWebAppln(java.lang.reflect.Method)[pri:0, instance:myntraTests.MyntraTest@239963d8]" name="myntraLaunchWebAppln" duration-ms="11671" started-at="2021-01-22T10:18:57 IST" description="Navigate to Myntra Web Application" finished-at="2021-01-22T10:19:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void myntraTests.MyntraTest.myntraLaunchWebAppln(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[fgsdfgsdfgdsMyntra Application Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- myntraLaunchWebAppln -->
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:myntraTests.MyntraTest@239963d8]" name="methodLevelSetup" is-config="true" duration-ms="0" started-at="2021-01-22T10:19:10 IST" finished-at="2021-01-22T10:19:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method status="PASS" signature="myntraLogin(java.lang.reflect.Method)[pri:1, instance:myntraTests.MyntraTest@239963d8]" name="myntraLogin" duration-ms="9152" started-at="2021-01-22T10:19:10 IST" description="Login to Myntra Web Application with Mobile Number &amp; Password" finished-at="2021-01-22T10:19:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void myntraTests.MyntraTest.myntraLogin(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myntraLogin -->
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:myntraTests.MyntraTest@239963d8]" name="methodLevelSetup" is-config="true" duration-ms="1" started-at="2021-01-22T10:19:21 IST" finished-at="2021-01-22T10:19:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method status="PASS" signature="myntraSearchItem(java.lang.reflect.Method)[pri:2, instance:myntraTests.MyntraTest@239963d8]" name="myntraSearchItem" duration-ms="14532" started-at="2021-01-22T10:19:21 IST" description="Searching an Item and applying filters" finished-at="2021-01-22T10:19:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void myntraTests.MyntraTest.myntraSearchItem(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myntraSearchItem -->
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:myntraTests.MyntraTest@239963d8]" name="methodLevelSetup" is-config="true" duration-ms="1" started-at="2021-01-22T10:19:38 IST" finished-at="2021-01-22T10:19:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method status="PASS" signature="myntraAddItemsToBag(java.lang.reflect.Method)[pri:3, instance:myntraTests.MyntraTest@239963d8]" name="myntraAddItemsToBag" duration-ms="13411" started-at="2021-01-22T10:19:38 IST" description="Adding an Item to cart" finished-at="2021-01-22T10:19:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void myntraTests.MyntraTest.myntraAddItemsToBag(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myntraAddItemsToBag -->
+        <test-method status="PASS" signature="methodLevelSetup()[pri:0, instance:myntraTests.MyntraTest@239963d8]" name="methodLevelSetup" is-config="true" duration-ms="0" started-at="2021-01-22T10:19:52 IST" finished-at="2021-01-22T10:19:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method status="PASS" signature="myntraPlaceTheOrder(java.lang.reflect.Method)[pri:4, instance:myntraTests.MyntraTest@239963d8]" name="myntraPlaceTheOrder" duration-ms="7121" started-at="2021-01-22T10:19:52 IST" description="Adding an Item to cart" finished-at="2021-01-22T10:19:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void myntraTests.MyntraTest.myntraPlaceTheOrder(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myntraPlaceTheOrder -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:myntraTests.MyntraTest@239963d8]" name="teardown" is-config="true" duration-ms="2135" started-at="2021-01-22T10:20:00 IST" finished-at="2021-01-22T10:20:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- myntraTests.MyntraTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- MyntraTestAutomation -->
+</testng-results>
